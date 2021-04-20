@@ -1,0 +1,20 @@
+{
+  "name": "mern-cloud-disk",
+  "version": "1.0.0",
+  "description": "client => npx create-react-app .\r added redux to client\r Navbar.jsx => rcc/rcp + tab/enter => create default component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greenwald80/mern-cloud-disk-ulbitv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greenwald80/mern-cloud-disk-ulbitv/issues"
+  },
+  "homepage": "https://github.com/greenwald80/mern-cloud-disk-ulbitv#readme"
+}
