@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./registration.css";
+import "./authorization.css";
 import Input from "../../utils/input/Input";
 import {registration} from "../../actions/user";
 
@@ -7,8 +7,8 @@ const Registration = () => {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   return (
-    <div className="registration">
-      <div className="registration__header">Registration</div>
+    <div className="authorization">
+      <div className="authorization__header">Registration</div>
       <Input
         type="text"
         placeholder="email"
@@ -21,7 +21,7 @@ const Registration = () => {
         value={password}
         setValue={setPassword}
       />
-      <button className="registration__btn" onClick={()=>registration(email,password)}>Register</button>
+      <button className="authorization__btn" onClick={()=>registration(email,password)}>Register</button>
     </div>
   );
 };
